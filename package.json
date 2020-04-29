@@ -1,0 +1,26 @@
+{
+  "name": "lancaster-laravel",
+  "version": "1.0.0",
+  "description": "Lancaster Laravel meetup website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env NODE_ENV=development gulp build",
+    "prod": "env NODE_ENV=production gulp build",
+    "serve": "env NODE_ENV=development gulp serve"
+  },
+  "keywords": [
+    "lancaster",
+    "laravel",
+    "meetup"
+  ],
+  "author": "Nathan Heffley <nathan@lancastersoftware.co>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "http-server": "^0.12.3",
+    "tailwindcss": "github:tailwindcss/tailwindcss#master"
+  }
+}
