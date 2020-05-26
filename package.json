@@ -1,7 +1,7 @@
 {
-  "name": "lancaster-laravel",
+  "name": "static-site-template",
   "version": "1.0.0",
-  "description": "Lancaster Laravel meetup website.",
+  "description": "A static website template that comes with a Gulp pipeline and Tailwind CSS (with PurgeCSS).",
   "main": "index.js",
   "scripts": {
     "dev": "env NODE_ENV=development gulp build",
